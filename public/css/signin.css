@@ -4,7 +4,8 @@ html, body {
 }
 
 body {
-    background-color: #0072C6;
+    background-color: #0072C6; /* #772953 */
+    transition: all 0.8s cubic-bezier(0.945, 0.020, 0.270, 0.665);
 }
 
 .main-container {

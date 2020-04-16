@@ -3,7 +3,6 @@
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -53,7 +52,6 @@ a, a:hover, a:focus {
     margin: 40px 0;
 }
 
-
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -70,7 +68,7 @@ a, a:hover, a:focus {
     max-width: 230px;
     background: #0072C6;
     color: #fff;
-    transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+    transition: margin-left 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665), transform 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665) ;
     transform-origin: bottom left;
 }
 
@@ -81,7 +79,7 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #0063ad;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 #sidebar ul.components {
@@ -108,7 +106,7 @@ a, a:hover, a:focus {
 
 #sidebar ul li.active>a, a[aria-expanded="true"] {
     color: #fff;
-    background: #0063ad;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 a[data-toggle="collapse"] {
@@ -126,7 +124,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 40px !important;
-    background: #0063ad;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 ul.CTAs {
@@ -163,18 +161,15 @@ a.article, a.article:hover {
 }
 
 #content.active {
-    
     padding: 0px;
-    
 }
 
-#containerD{
+#containerD {
     transition: all 0.3s;
 }
 
-#containerD.active{
+#containerD.active {
     padding-left: 20px;
-    
 }
 
 #sidebarCollapse {
@@ -212,7 +207,7 @@ a.article, a.article:hover {
     margin: 5px auto;
 }
 
-.card-header{
+.card-header {
     padding: .30rem 1.25rem;
 }
 
@@ -233,10 +228,10 @@ a.article, a.article:hover {
         margin-bottom: 40px;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     }
-    #sidebarCollapse{
+    #sidebarCollapse {
         padding-left: 10px;
     }
-    #collapseMenu{
+    #collapseMenu {
         margin-right: 10px;
         margin-bottom: 5px;
     }
@@ -244,22 +239,18 @@ a.article, a.article:hover {
         padding-right: 0;
         padding-left: 10px;
     }
-    
-    .navbar-collapse li, .form-inline{
+    .navbar-collapse li, .form-inline {
         border-top: 0.1px solid white;
     }
-    
-    .form-inline{
+    .form-inline {
         padding: 0.5rem 0 0.4rem 10px;
     }
-    
-    .navbar-collapse ul li a:hover{
-        color: #0063ad;
+    .navbar-collapse ul li a:hover {
+        color: rgba(0, 0, 0, 0.1);
         background: #fff;
     }
-    
-    .form-inline:hover{
-        color: #0063ad;
+    .form-inline:hover {
+        color: rgba(0, 0, 0, 0.1);
         background: #fff;
     }
     #sidebar {

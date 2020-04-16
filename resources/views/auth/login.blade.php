@@ -14,6 +14,7 @@
   <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
     rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/48be5f5ef0.js" crossorigin="anonymous"></script>
   <title>School Management System</title>
   <style>
     .bs-example {
@@ -37,10 +38,50 @@
     
 
   }
+
+  $( document ).ready(function() {
+
+    window.scrollTo(0,32);
+    document.getElementById("Upreference").value = 'Estilo A';
+
+    $(".dropdown-menu a").click(function(){
+    var sel = $(this).text();
+    //do whatever you want here
+    if (sel == 'Estilo A') {
+      document.body.style.backgroundColor="#0072C6";
+      document.getElementById("Upreference").value = sel;
+    }
+    if (sel == 'Estilo B') {
+      document.body.style.backgroundColor="#772953";
+      document.getElementById("Upreference").value = sel;
+      
+    }
+    if (sel == 'Estilo C') {
+      document.body.style.backgroundColor="#E95420";
+      document.getElementById("Upreference").value = sel;
+    }
+})
+    
+});
+
+  
+
+  
   </script>
 </head>
 
 <body>
+  <div class="dropdown">
+    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-cog fa-1x" style="font-size: 18px;"></i>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Estilo A</a>
+      <a class="dropdown-item" href="#">Estilo B</a>
+      <a class="dropdown-item" href="#">Estilo C</a>
+    </div>
+  </div>
   <div class="main-container">
     <!-- Client/Employee Toast -->
     <div aria-live="polite" aria-atomic="true"
@@ -118,10 +159,12 @@
               <div class="col-9">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" data-toggle="toggle" data-size="xs"
-                    data-onstyle="warning" data-offstyle="secondary" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                    data-onstyle="warning" data-offstyle="secondary" name="remember" id="remember"
+                    {{ old('remember') ? 'checked' : '' }}>
                   <label class="form-check-label" for="gridCheck1" id="labelRemember">
                     Remember me
                   </label>
+                  <input type="hidden" id="Upreference" name="Upreference">
                 </div>
               </div>
             </div>
@@ -130,10 +173,10 @@
               <div class="col-9 text-right">
                 <button type="submit" class="btn btn-dark btn-block">Ingresar</button>
                 @if (Route::has('password.request'))
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    {{ __('Olvido su contraseña?') }}
-                                </a>
-                                @endif
+                <a class="btn btn-link" href="{{ route('password.request') }}">
+                  {{ __('Olvido su contraseña?') }}
+                </a>
+                @endif
               </div>
             </div>
           </form>
