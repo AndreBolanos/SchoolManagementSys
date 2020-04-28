@@ -246,11 +246,11 @@ a.article, a.article:hover {
         padding: 0.5rem 0 0.4rem 10px;
     }
     .navbar-collapse ul li a:hover {
-        color: rgba(0, 0, 0, 0.1);
+        color: #0063ad;
         background: #fff;
     }
     .form-inline:hover {
-        color: rgba(0, 0, 0, 0.1);
+        color: #0063ad;
         background: #fff;
     }
     #sidebar {

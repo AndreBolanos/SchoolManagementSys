@@ -322,7 +322,22 @@
             if ({!! json_encode($x) !!} == 'Estilo C') {
                 document.getElementById("navbar").style.backgroundColor ="#E95420";
                 document.getElementById("sidebar").style.backgroundColor ="#E95420";
+            }
+
+            if ({!! json_encode($x) !!} == 'Estilo D') {
+                document.getElementById("navbar").style.backgroundColor ="#34495E";
+                document.getElementById("sidebar").style.backgroundColor ="#34495E";
             } 
+
+            if ({!! json_encode($x) !!} == 'Estilo E') {
+                document.getElementById("navbar").style.backgroundColor ="#008080";
+                document.getElementById("sidebar").style.backgroundColor ="#008080";
+            } 
+
+            if ({!! json_encode($x) !!} == 'Estilo F') {
+                document.getElementById("navbar").style.backgroundColor ="#7B241C";
+                document.getElementById("sidebar").style.backgroundColor ="#7B241C";
+            }   
             
             
             

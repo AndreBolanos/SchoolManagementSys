@@ -61,6 +61,21 @@
       document.getElementById("Upreference").value = sel;
     }
 
+    if (sel == 'Estilo D') {
+      document.body.style.backgroundColor="#34495E";
+      document.getElementById("Upreference").value = sel;
+    }
+
+    if (sel == 'Estilo E') {
+      document.body.style.backgroundColor="#008080";
+      document.getElementById("Upreference").value = sel;
+    }
+
+    if (sel == 'Estilo F') {
+      document.body.style.backgroundColor="#7B241C";
+      document.getElementById("Upreference").value = sel;
+    }
+
     
 })
     
@@ -82,6 +97,9 @@
       <a class="dropdown-item" href="#">Estilo A</a>
       <a class="dropdown-item" href="#">Estilo B</a>
       <a class="dropdown-item" href="#">Estilo C</a>
+      <a class="dropdown-item" href="#">Estilo D</a>
+      <a class="dropdown-item" href="#">Estilo E</a>
+      <a class="dropdown-item" href="#">Estilo F</a>
     </div>
   </div>
   <div class="main-container">
