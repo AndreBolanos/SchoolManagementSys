@@ -132,7 +132,7 @@
           <img id="logoSchool" src="img/ColegioBrooklyn.jpg" class="img-fluid" alt="Responsive image">
         </div>
         <div class="col-12 col-sm-8 col-md-6">
-          <form method="POST" action="{{ route('login') }}">
+          <form id="userForm" method="POST" action="{{ route('login') }}">
             @csrf
             <div class="form-group row">
               <div class="col-2 text-right"></div>
