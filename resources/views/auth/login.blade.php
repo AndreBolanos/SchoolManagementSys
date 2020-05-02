@@ -122,7 +122,7 @@
       <h1 class="row justify-content-center">Bienvenido a School Management System
         V.1
       </h1>
-      <p class="lead">A través de este sistema usted podra realizar consultas del centro educativo Brooklyn School Guatemala y solicitar
+      <p class="lead">El Sistema le permitira realizar consultas del centro educativo Brooklyn School Guatemala y solicitar
         gestiones o tramites escolares.</p>
       <hr class="my-4" id="hrForm">
       <div class="row" id="formRow">
