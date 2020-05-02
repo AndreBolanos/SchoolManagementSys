@@ -119,10 +119,8 @@
       </div>
     </div>
     <div class="jumbotron form-signin">
-      <h1 class="row justify-content-center">Bienvenido a School Management System
-        V.1
-      </h1>
-      <p class="lead">El Sistema le permitira realizar consultas del centro educativo <span style="font-weight:800;text-shadow: 2px 2px rgb(73, 8, 8)">Brooklyn School de Guatemala</span> y solicitar
+      <h1 class="row justify-content-center" style="font-weight:400;text-shadow: 2px 2px rgb(73, 8, 8)">Bienvenido a School Management System V.1</h1>
+      <p class="lead">El Sistema le permitira realizar consultas del centro educativo <span style="font-weight:700;text-shadow: 2px 2px rgb(73, 8, 8)">Brooklyn School de Guatemala</span> y solicitar
         gestiones o tramites escolares.</p>
       <hr class="my-4" id="hrForm">
       <div class="row" id="formRow">
