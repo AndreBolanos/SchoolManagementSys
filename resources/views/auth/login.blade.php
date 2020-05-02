@@ -41,8 +41,8 @@
 
   $( document ).ready(function() {
 
-    window.scrollTo(0,32);
-    document.getElementById("Upreference").value = 'Estilo A';
+    //window.scrollTo(0,32);
+    //document.getElementById("Upreference").value = 'Estilo A';
 
     $(".dropdown-menu a").click(function(){
     var sel = $(this).text();
@@ -88,7 +88,7 @@
 </head>
 
 <body>
-  <div class="dropdown">
+  <div class="dropdown" hidden>
     <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <i class="fas fa-cog fa-1x" style="font-size: 18px;"></i>
@@ -102,7 +102,9 @@
       <a class="dropdown-item" href="#">Estilo F</a>
     </div>
   </div>
-  <div class="main-container">
+  <div class="main-container" style="background-image: url('img/eduC.jpg');background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
     <!-- Client/Employee Toast -->
     <div aria-live="polite" aria-atomic="true"
       style="position:fixed;z-index:9999; top:15px;right:15px; min-height: 200px;">
@@ -122,12 +124,12 @@
       <h1 class="row justify-content-center">Bienvenido a School Management System
         V.1
       </h1>
-      <p class="lead">A través de este sistema usted podra realizar consultas del centro educativo xxxxxx y solicitar
+      <p class="lead">A través de este sistema usted podra realizar consultas del centro educativo Brooklyn School Guatemala y solicitar
         gestiones o tramites escolares.</p>
       <hr class="my-4" id="hrForm">
       <div class="row" id="formRow">
         <div class="col-12 col-sm-4 col-md-6 text-center my-auto" id="logoS">
-          <h2 class="col-12">Logo del Colegio</h2>
+          <img id="logoSchool" src="img/ColegioBrooklyn.jpg" class="img-fluid" alt="Responsive image">
         </div>
         <div class="col-12 col-sm-8 col-md-6">
           <form method="POST" action="{{ route('login') }}">

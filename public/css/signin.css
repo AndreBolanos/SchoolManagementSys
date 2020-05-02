@@ -27,8 +27,13 @@ body {
     max-width: 1000px;
     padding: 30px 30px 0px 30px;
     margin: auto;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.4);
     color: whitesmoke;
+}
+
+#logoSchool {
+    border-radius: 50%;border: 5px solid #F1C40F;
+    width: 250px;
 }
 
 #formRow {
@@ -72,7 +77,7 @@ form {
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.4);
     left: 0;
     bottom: 0;
     right: 0;
@@ -91,6 +96,13 @@ footer {
 /* Media queries */
 
 @media only screen and (max-device-width: 480px) and (orientation:portrait) {
+    #logoSchool {
+        border-radius: 50%;border: 5px solid #F1C40F;
+        width: 175px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
     .jumbotron {
         margin-bottom: 0;
     }
