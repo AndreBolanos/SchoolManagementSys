@@ -102,9 +102,7 @@
       <a class="dropdown-item" href="#">Estilo F</a>
     </div>
   </div>
-  <div class="main-container" style="background-image: url('img/eduC.jpg');background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;">
+  <div class="main-container">
     <!-- Client/Employee Toast -->
     <div aria-live="polite" aria-atomic="true"
       style="position:fixed;z-index:9999; top:15px;right:15px; min-height: 200px;">
