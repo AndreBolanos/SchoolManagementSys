@@ -42,7 +42,7 @@
   $( document ).ready(function() {
 
     //window.scrollTo(0,32);
-    //document.getElementById("Upreference").value = 'Estilo A';
+    document.getElementById("Upreference").value = 'Estilo A';
 
     $(".dropdown-menu a").click(function(){
     var sel = $(this).text();
