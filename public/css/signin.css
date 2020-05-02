@@ -114,8 +114,8 @@ footer {
     #logoSchool {
         border-radius: 50%;border: 5px solid #F1C40F;
         width: 200px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 0px;
     }
 
     #userForm{
@@ -169,7 +169,7 @@ footer {
         justify-content: center;
         align-items: center;
         min-height: 120px;
-        border-bottom: 1px solid whitesmoke;
+        /*border-bottom: 1px solid whitesmoke;*/
     }
 }
 
