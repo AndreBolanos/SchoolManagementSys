@@ -104,7 +104,7 @@ footer {
     
     .main-container {
         
-        background-image: url('../img/eduA.jpg');
+        background-image: url('../img/eduCM.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -113,13 +113,13 @@ footer {
     
     #logoSchool {
         border-radius: 50%;border: 5px solid #F1C40F;
-        width: 175px;
+        width: 200px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
     #userForm{
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.3);
         color: white;
         width: 100vw;
         margin-left: calc(-50vw + 50%);
