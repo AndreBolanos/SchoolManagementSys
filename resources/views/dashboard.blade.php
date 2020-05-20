@@ -142,31 +142,27 @@
             <div id="containerD" class="container-fluid">
                 <div class="row float-left">
                     <div class="col-12">
-                        <div class="jumbotron" style="background-color:rgba(0, 0, 0, 0.4);color:white;">
-                            <h1 class="display-4">Hello, world!</h1>
-                            <p class="lead" style="color: white">This is a simple hero unit, a simple jumbotron-style component for calling
-                                extra
-                                attention to featured content or information.</p>
-                            <hr class="my-4">
-                            <p style="color: white">It uses utility classes for typography and spacing to space content out within the larger
-                                container.</p>
+                        <div class="jumbotron" style="background-color:rgba(0, 0, 0, 0.3);color:white;">
+                            <h2 class="display-5">Bienvenido, al Sistema de Gestion Escolar Brooklyn School</h2>
+                            <p class="lead" style="color: white">Ejemplo de un modulo de bienvenida o instrucciones para el usuario</p>
+                            <hr class="my-4" style="background-color: white">
+                            <p style="color: white">Detalles de un tema o instruccion para el usuario.</p>
                             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="card">
-                            <h5 class="card-header">Featured</h5>
+                            <h5 class="card-header">Titulo de Contenido</h5>
                             <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional
-                                    content.</p>
+                                <h5 class="card-title">Ejemplo de un contenido</h5>
+                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
 
-                        <div class="line"></div>
+                        <div class="line" style="background-color: black"></div>
 
-                        <h2>Lorem Ipsum Dolor</h2>
+                        <h2>Titulo General</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi

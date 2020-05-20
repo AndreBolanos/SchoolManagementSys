@@ -42,6 +42,10 @@ School Management System Software
     - About
     - Contact
 
+- ### [Schedule Creator](#Schedule-Creator)
+
+
+
 - ### [Data Dictionary Contents](#Data-Dictionary)
     - User Catalog
     - Student Catalog
@@ -64,5 +68,8 @@ This section includes the login form with the alternative options to login accor
 This is the main system screen that will display all of the School Management components, depending on the user´s role, it will have access to different modules
 
 ## Data Dictionary
+
+## Schedule Creator
+
 
 
