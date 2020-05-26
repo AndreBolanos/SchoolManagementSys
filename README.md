@@ -42,7 +42,6 @@ School Management System Software
     - About
     - Contact
 
-- ### [Schedule Creator](#Schedule-Creator)
 
 
 
