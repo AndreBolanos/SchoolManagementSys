@@ -1,6 +1,9 @@
-# School Management System
+# School Management System V.1
 
-School Management System Software
+
+School Management System Software V.1  
+>Created by Ing. André Salvador Bolaños Aldana  
+Guatemala
 
 ## Modules
 
@@ -20,7 +23,11 @@ School Management System Software
 
 - ### [Customer Service Module](#Customer-Service)
 
+- ### [Course Planning & Contents Module](#Course-Planning-&-Contents)
 
+- ### [Alerts & Notifications Module](#Alerts-&-Notifications)
+
+- ### []
 
 
 - ### [Dashboard Contents](#Dashboard)
@@ -75,11 +82,17 @@ This section includes the login form with the alternative options to login accor
 
 ## Financial Analysis
 
+A financial analysis that allows stack holders/owners to visualize financial trends, to improve performance and better understand the impact and its reasons 
+
 ## Elearning
 
 ## Homework/Activities
 
 ## Customer Service
+
+## Course Planning & Contents
+
+## Alerts & Notifications
 
 ## Dashboard
 
