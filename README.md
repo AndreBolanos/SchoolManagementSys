@@ -4,11 +4,24 @@ School Management System Software
 
 ## Modules
 
-- ### [LogIn Roles](#LogIn)
+- ### [LogIn Roles Module](#LogIn)
     - Students
     - Teachers
     - Parents
     - Administrator
+
+- ### [Financial Analysis Module](#Financial-Analysis)
+
+- ### [Elearning Module](#Elearning)
+
+- ### [Schedule Creator Module](#Schedule-Creator)
+
+- ### [Homework & Activities Module](#Homework/Activities)
+
+- ### [Customer Service Module](#Customer-Service)
+
+
+
 
 - ### [Dashboard Contents](#Dashboard)
     - Course contents
@@ -43,8 +56,6 @@ School Management System Software
     - Contact
 
 
-
-
 - ### [Data Dictionary Contents](#Data-Dictionary)
     - User Catalog
     - Student Catalog
@@ -61,6 +72,14 @@ School Management System Software
 ## LogIn
 
 This section includes the login form with the alternative options to login according to the user role
+
+## Financial Analysis
+
+## Elearning
+
+## Homework/Activities
+
+## Customer Service
 
 ## Dashboard
 
