@@ -4,7 +4,7 @@ School Management System Software
 
 ## Modules
 
-- ### [LogIn Contents](#LogIn)
+- ### [LogIn Roles](#LogIn)
     - Students
     - Teachers
     - Parents
