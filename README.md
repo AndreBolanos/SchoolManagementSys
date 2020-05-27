@@ -3,23 +3,19 @@
 
 School Management System Software V.1  
 >Created by Ing. André Salvador Bolaños Aldana  
-Guatemala
+Guatemala, 2020.
 
 ## Modules
 
-- ### [LogIn Roles Module](#LogIn)
-    - Students
-    - Teachers
-    - Parents
-    - Administrator
-
+- ### [LogIn Module](#LogIn)
+    
 - ### [Financial Analysis Module](#Financial-Analysis)
 
 - ### [Elearning Module](#Elearning)
 
 - ### [Schedule Creator Module](#Schedule-Creator)
 
-- ### [Homework & Activities Module](#Homework/Activities)
+- ### [Homework & Projects Module](#Homework/Activities)
 
 - ### [Customer Service Module](#Customer-Service)
 
@@ -27,7 +23,11 @@ Guatemala
 
 - ### [Alerts & Notifications Module](#Alerts-&-Notifications)
 
-- ### []
+- ### [New User/Profile Module](#New-User/Profile)
+
+- ### [Online Payment Module](#Online-Payment)
+
+- ### [Maintenance Module](#Maintenance) 
 
 
 - ### [Dashboard Contents](#Dashboard)
@@ -78,21 +78,57 @@ Guatemala
 
 ## LogIn
 
-This section includes the login form with the alternative options to login according to the user role
+This section includes the login form with the alternative options to login according to the user role:
+
+- Students
+- Teachers
+- Parents
+- Administrator
+
+Depending on the role the user will have access to specific modules and functions within the Dashboard
+
 
 ## Financial Analysis
 
-A financial analysis that allows stack holders/owners to visualize financial trends, to improve performance and better understand the impact and its reasons 
+A financial analysis that allows stakeholders/owners to visualize financial trends, to improve performance and better understand the financial impact and its reasons, further more this module provides monthly financial summaries for all assets, such as:
+
+- Student Monthly Payments
+- Employee's Salary
+- Inventory
+- Supplies
+- Rent
+- Publicity
+- Etc
 
 ## Elearning
 
+This module supports learning material for all students, depending on their current grade and course.
+
+## Schedule Creator
+
+The Schedule Creator Module provides the necessary tools to create a sustainable and coherent course schedule, it considers the availability of Teachers but at the same time the overall coverage to ensure maximum efficiency when distributing courses and grades.
+
 ## Homework/Activities
+
+A module that allows teachers to create and publish Homeworks and/or projects, students can submit their finished homework/projects for review.
 
 ## Customer Service
 
+A module that helps the school interact with their clients to provide world-class customer service, the purpose is to follow up on client inquiries and respond to their needs, but also take feedback to improve school management processes.
+
 ## Course Planning & Contents
 
+This section allows Teachers to develop and submit their weekly/monthly/yearly course content and planning, it helps organize courses effectively and create goals to achieve the desired outcome.
+
 ## Alerts & Notifications
+
+
+
+## New User/Profile
+
+## Online Payment
+
+## Maintenance
 
 ## Dashboard
 
@@ -100,7 +136,7 @@ This is the main system screen that will display all of the School Management co
 
 ## Data Dictionary
 
-## Schedule Creator
+
 
 
 
