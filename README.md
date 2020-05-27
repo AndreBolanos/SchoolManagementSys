@@ -27,8 +27,7 @@ Guatemala, 2020.
 
 - ### [Online Payment Module](#Online-Payment)
 
-- ### [Maintenance Module](#Maintenance) 
-
+- ### [Maintenance Module](#Maintenance)
 
 - ### [Dashboard Contents](#Dashboard)
     - Course contents
