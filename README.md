@@ -15,15 +15,15 @@ Guatemala, 2020.
 
 - ### [Schedule Creator Module](#Schedule-Creator)
 
-- ### [Homework & Projects Module](#Homework/Activities)
+- ### [Homework & Projects Module](#Homework-and-Projects)
 
 - ### [Customer Service Module](#Customer-Service)
 
-- ### [Course Planning & Contents Module](#Course-Planning-&-Contents)
+- ### [Course Planning & Contents Module](#Course-Planning-and-Contents)
 
-- ### [Alerts & Notifications Module](#Alerts-&-Notifications)
+- ### [Alerts & Notifications Module](#Alerts-and-Notifications)
 
-- ### [New User/Profile Module](#New-User/Profile)
+- ### [New User/Profile Module](#New-User-Profile)
 
 - ### [Online Payment Module](#Online-Payment)
 
@@ -107,7 +107,7 @@ This module supports learning material for all students, depending on their curr
 
 The Schedule Creator Module provides the necessary tools to create a sustainable and coherent course schedule, it considers the availability of Teachers but at the same time the overall coverage to ensure maximum efficiency when distributing courses and grades.
 
-## Homework/Activities
+## Homework and Projects
 
 A module that allows teachers to create and publish Homeworks and/or projects, students can submit their finished homework/projects for review.
 
@@ -115,15 +115,15 @@ A module that allows teachers to create and publish Homeworks and/or projects, s
 
 A module that helps the school interact with their clients to provide world-class customer service, the purpose is to follow up on client inquiries and respond to their needs, but also take feedback to improve school management processes.
 
-## Course Planning & Contents
+## Course Planning and Contents
 
 This section allows Teachers to develop and submit their weekly/monthly/yearly course content and planning, it helps organize courses effectively and create goals to achieve the desired outcome.
 
-## Alerts & Notifications
+## Alerts and Notifications
 
 
 
-## New User/Profile
+## New User Profile
 
 ## Online Payment
 
