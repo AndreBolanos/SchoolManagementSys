@@ -103,13 +103,12 @@
 
             <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
                 <div class="container-fluid">
-
                     <button type="button" id="sidebarCollapse" class="navbar-btn">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
-
+                    <a class="navbar-brand" href="#" style="margin-left: 5px;font-weight:400;">Brooklyn School | School Management Tool V.1</a>
                     <button id="collapseMenu" class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button"
                         data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,9 +141,9 @@
             <div id="containerD" class="container-fluid">
                 <div class="row float-left">
                     <div class="col-12">
-                        <div class="jumbotron" style="padding-top: 25px; padding-bottom: 25px;background-color: rgba(0,0,0,.15);">
+                        <div class="jumbotron" style="padding-top: 25px; padding-bottom: 25px;background-color: rgba(0,0,0,.15);color:black;">
                             <h3 class="display-5">Bienvenido, al Sistema de Gestion Escolar Brooklyn School</h3>
-                            <p class="lead" >Ejemplo de un modulo de bienvenida o instrucciones para el usuario</p>
+                            <p class="lead">Ejemplo de un modulo de bienvenida o instrucciones para el usuario</p>
                             <hr class="my-4">
                             <p>Detalles de un tema o instruccion para el usuario.</p>
                             <a class="btn btn-primary" href="#" role="button">Aprender más</a>
@@ -152,10 +151,10 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header">Tareas y Asignaciones</h5>
+                            <h5 class="card-header" style="background-color: rgba(255, 195, 0,.9)">Tareas y Asignaciones</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
-                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
+                                <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
@@ -164,10 +163,10 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header">Clases Online</h5>
+                            <h5 class="card-header" style="background-color: rgba(198, 0, 0,.6)">Clases Online</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
-                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
+                                <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
@@ -176,10 +175,10 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header">Examenes</h5>
+                            <h5 class="card-header" style="background-color: rgba(88, 24, 69,.6)">Examenes de Unidad</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
-                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
+                                <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
@@ -188,10 +187,10 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header">Notas e Información</h5>
+                            <h5 class="card-header" style="background-color: rgba(18, 171, 0,.6)">Notas e Información</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
-                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
+                                <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
