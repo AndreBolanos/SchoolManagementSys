@@ -97,7 +97,7 @@
         </nav>
 
         <!-- Page Content Holder -->
-        <div id="content" style="background-image: url('img/eduC.jpg');background-position: center;
+        <div id="content" style="background-image: url('./img/BackGB.jpg');background-position: center;
         background-repeat: no-repeat;
         background-size: cover;">
 
@@ -142,17 +142,17 @@
             <div id="containerD" class="container-fluid">
                 <div class="row float-left">
                     <div class="col-12">
-                        <div class="jumbotron" style="background-color:rgba(0, 0, 0, 0.3);color:white;">
-                            <h2 class="display-5">Bienvenido, al Sistema de Gestion Escolar Brooklyn School</h2>
-                            <p class="lead" style="color: white">Ejemplo de un modulo de bienvenida o instrucciones para el usuario</p>
-                            <hr class="my-4" style="background-color: white">
-                            <p style="color: white">Detalles de un tema o instruccion para el usuario.</p>
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                        <div class="jumbotron" style="padding-top: 25px; padding-bottom: 25px;background-color: rgba(0,0,0,.15);">
+                            <h3 class="display-5">Bienvenido, al Sistema de Gestion Escolar Brooklyn School</h3>
+                            <p class="lead" >Ejemplo de un modulo de bienvenida o instrucciones para el usuario</p>
+                            <hr class="my-4">
+                            <p>Detalles de un tema o instruccion para el usuario.</p>
+                            <a class="btn btn-primary" href="#" role="button">Aprender más</a>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header">Titulo de Contenido</h5>
+                            <h5 class="card-header">Tareas y Asignaciones</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text">Datos o informacion de un modulo de contenido.</p>
@@ -161,33 +161,42 @@
                         </div>
 
                         <div class="line" style="background-color: black"></div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <h5 class="card-header">Clases Online</h5>
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo de un contenido</h5>
+                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
 
-                        <h2>Titulo General</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt mollit anim id est laborum.</p>
+                        <div class="line" style="background-color: black"></div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <h5 class="card-header">Examenes</h5>
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo de un contenido</h5>
+                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
 
-                        <div class="line"></div>
+                        <div class="line" style="background-color: black"></div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <h5 class="card-header">Notas e Información</h5>
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo de un contenido</h5>
+                                <p class="card-text">Datos o informacion de un modulo de contenido.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
 
-                        <h2>Lorem Ipsum Dolor</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt mollit anim id est laborum.</p>
-
-                        
-
+                        <div class="line" style="background-color: black"></div>
                     </div>
                 </div>
 
