@@ -103,12 +103,14 @@
 
             <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
                 <div class="container-fluid">
+                    <div class="row" style="margin-left: 0">
                     <button type="button" id="sidebarCollapse" class="navbar-btn">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
-                    <a class="navbar-brand" href="#" style="margin-left: 5px;font-weight:400;">Brooklyn School | School Management Tool V.1</a>
+                    <a class="navbar-brand" href="#" style="margin-left: 5px;font-weight:400;">Brooklyn School System</a>
+                    </div>
                     <button id="collapseMenu" class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button"
                         data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -163,7 +165,7 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header" style="background-color: rgba(198, 0, 0,.6)">Clases Online</h5>
+                            <h5 class="card-header" style="background-color: rgba(198, 0, 0,.4)">Clases Online</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
@@ -175,7 +177,7 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header" style="background-color: rgba(88, 24, 69,.6)">Examenes de Unidad</h5>
+                            <h5 class="card-header" style="background-color: rgba(88, 24, 69,.4)">Examenes de Unidad</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
