@@ -97,7 +97,7 @@
         </nav>
 
         <!-- Page Content Holder -->
-        <div id="content" style="background-image: url('./img/BackGB.jpg');background-position: center;
+        <div class="container-fluid" id="content" style="background-image: url('./img/BackGB.jpg');background-position: center;
         background-repeat: no-repeat;
         background-size: cover;">
 
@@ -202,6 +202,16 @@
                 </div>
 
             </div>
+           
+                <div class="footerI">
+                <!-- Copyright -->
+                <div class="col-md-12">
+                <div class="text-center py-2 mx-auto" style="color: azure;font-size: 12px;">© 2020 Copyright, developed by Ing. André Bolaños</div>
+                </div>
+                <!-- Copyright -->
+                </div>
+          
+              
 
         </div>
         

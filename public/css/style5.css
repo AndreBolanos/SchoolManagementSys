@@ -159,6 +159,7 @@ a.article, a.article:hover {
     padding: 15px 20px 20px 20px;
     min-height: 100vh;
     transition: all 0.3s;
+    position: relative;
 }
 
 #content.active {
@@ -211,6 +212,15 @@ a.article, a.article:hover {
 .card-header {
     padding: .30rem 1.25rem;
     
+}
+
+.footerI {
+    background: rgba(0, 0, 0, 0.4);
+    height: 35px;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    position: absolute;
 }
 
 /* ---------------------------------------------------
