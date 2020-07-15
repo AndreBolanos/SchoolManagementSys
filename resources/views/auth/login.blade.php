@@ -189,7 +189,7 @@
             <div class="form-group row">
               <div class="col-3"></div>
               <div class="col-9 text-right">
-                <button type="submit" class="btn btn-dark btn-block">Ingresar</button>
+                <button type="submit" class="btn btn-info btn-block">Ingresar</button>
                 @if (Route::has('password.request'))
                 <a class="btn btn-link" href="{{ route('password.request') }}">
                   {{ __('Olvido su contraseña?') }}

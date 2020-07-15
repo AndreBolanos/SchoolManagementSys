@@ -25,6 +25,7 @@
 <body>
     @php
         $x = Auth::user()->preference;
+        $user = Auth::user()->name;
     @endphp
 
     <div class="wrapper">
@@ -38,9 +39,11 @@
                     <span></span>
                 </button>
                 <div id="dashboardTop" class="sidebar-header text-center">
-                    <i class="fas fa-user-circle fa-10x"></i>
-
-
+                    <i class="fas fa-user-circle fa-10x" style="margin-bottom:5px;"></i>
+                    <div class="form-inline text-center">
+                    <p style="margin: 0px 10px 0px 25px;">{{ $user }}</p>
+                    <i class="fas fa-cog"></i>
+                    </div>
                 </div>
 
                 <ul class="list-unstyled components">
@@ -120,7 +123,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav mx-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
+                                <a class="nav-link" href="#">{{ $user }}</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Page</a>
@@ -165,7 +168,7 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header" style="background-color: rgba(198, 0, 0,.4)">Clases Online</h5>
+                            <h5 class="card-header" style="background-color: rgba(213, 38, 0,.5)">Clases Online</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
@@ -177,7 +180,7 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header" style="background-color: rgba(88, 24, 69,.4)">Examenes de Unidad</h5>
+                            <h5 class="card-header" style="background-color: rgba(88, 24, 69,.5)">Examenes de Unidad</h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
@@ -206,7 +209,7 @@
                 <div class="footerI">
                 <!-- Copyright -->
                 <div class="col-md-12">
-                <div class="text-center py-2 mx-auto" style="color: azure;font-size: 12px;">© 2020 Copyright, developed by Ing. André Bolaños</div>
+                <div class="text-center py-2 mx-auto" style="color:grey;font-size: 12px;">© 2020 Copyright, developed by Ing. André Bolaños</div>
                 </div>
                 <!-- Copyright -->
                 </div>
