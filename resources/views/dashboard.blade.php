@@ -24,8 +24,8 @@
 
 <body>
     @php
-        $x = Auth::user()->preference;
-        $user = Auth::user()->name;
+    $x = Auth::user()->preference;
+    $user = Auth::user()->name;
     @endphp
 
     <div class="wrapper">
@@ -40,9 +40,11 @@
                 </button>
                 <div id="dashboardTop" class="sidebar-header text-center">
                     <i class="fas fa-user-circle fa-10x" style="margin-bottom:5px;"></i>
-                    <div class="form-inline text-center">
-                    <p style="margin: 0px 10px 0px 25px;">{{ $user }}</p>
-                    <i class="fas fa-cog"></i>
+                    <div style="margin-top: 5px;">
+                        <div class="form-inline justify-content-center" style="border-top-style:none;">
+                            <p style="margin: 0px 10px 0px 0px;">{{ $user }}</p>
+                            <i class="fas fa-cog"></i>
+                        </div>
                     </div>
                 </div>
 
@@ -107,12 +109,13 @@
             <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
                 <div class="container-fluid">
                     <div class="row" style="margin-left: 0">
-                    <button type="button" id="sidebarCollapse" class="navbar-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <a class="navbar-brand" href="#" style="margin-left: 5px;font-weight:400;">Brooklyn School System</a>
+                        <button type="button" id="sidebarCollapse" class="navbar-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <a class="navbar-brand" href="#" style="margin-left: 5px;font-weight:400;">Brooklyn School
+                            System</a>
                     </div>
                     <button id="collapseMenu" class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button"
                         data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -146,7 +149,8 @@
             <div id="containerD" class="container-fluid">
                 <div class="row float-left">
                     <div class="col-12">
-                        <div class="jumbotron" style="padding-top: 25px; padding-bottom: 25px;background-color: rgba(0,0,0,.15);color:black;">
+                        <div class="jumbotron"
+                            style="padding-top: 25px; padding-bottom: 25px;background-color: rgba(0,0,0,.15);color:black;">
                             <h3 class="display-5">Bienvenido, al Sistema de Gestion Escolar Brooklyn School</h3>
                             <p class="lead">Ejemplo de un modulo de bienvenida o instrucciones para el usuario</p>
                             <hr class="my-4">
@@ -156,7 +160,8 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header" style="background-color: rgba(255, 195, 0,.9)">Tareas y Asignaciones</h5>
+                            <h5 class="card-header" style="background-color: rgba(255, 195, 0,.9)">Tareas y Asignaciones
+                            </h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
@@ -180,7 +185,8 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header" style="background-color: rgba(88, 24, 69,.5)">Examenes de Unidad</h5>
+                            <h5 class="card-header" style="background-color: rgba(88, 24, 69,.5)">Examenes de Unidad
+                            </h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
@@ -192,7 +198,8 @@
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card">
-                            <h5 class="card-header" style="background-color: rgba(18, 171, 0,.6)">Notas e Información</h5>
+                            <h5 class="card-header" style="background-color: rgba(18, 171, 0,.6)">Notas e Información
+                            </h5>
                             <div class="card-body">
                                 <h5 class="card-title">Ejemplo de un contenido</h5>
                                 <p class="card-text softP">Datos o informacion de un modulo de contenido.</p>
@@ -205,22 +212,23 @@
                 </div>
 
             </div>
-           
-                <div class="footerI">
+
+            <div class="footerI">
                 <!-- Copyright -->
                 <div class="col-md-12">
-                <div class="text-center py-2 mx-auto" style="color:grey;font-size: 12px;">© 2020 Copyright, developed by Ing. André Bolaños</div>
+                    <div class="text-center py-2 mx-auto" style="color:grey;font-size: 12px;">© 2020 Copyright,
+                        developed by Ing. André Bolaños</div>
                 </div>
                 <!-- Copyright -->
-                </div>
-          
-              
+            </div>
+
+
 
         </div>
-        
+
     </div>
 
- 
+
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -235,7 +243,7 @@
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
     </script>
 
-    
+
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
@@ -271,8 +279,8 @@
             } 
 
             if ({!! json_encode($x) !!} == 'Estilo C') {
-                document.getElementById("navbar").style.backgroundColor ="#E95420";
-                document.getElementById("sidebar").style.backgroundColor ="#E95420";
+                document.getElementById("navbar").style.backgroundColor ="#4B286D";
+                document.getElementById("sidebar").style.backgroundColor ="#4B286D";
             }
 
             if ({!! json_encode($x) !!} == 'Estilo D') {

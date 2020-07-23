@@ -57,7 +57,7 @@
       
     }
     if (sel == 'Estilo C') {
-      document.body.style.backgroundColor="#E95420";
+      document.body.style.backgroundColor="#5E2750";
       document.getElementById("Upreference").value = sel;
     }
 
